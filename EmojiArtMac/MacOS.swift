@@ -5,6 +5,11 @@
 //  Created by Alexis Schotte on 9/17/22.
 //
 
+
+// On Xcode 14 you have to go in the target editor for your project, go to Build Phases > Compile Sources, and deselect the source file from the Filters column in order to build only for Mac or iOS.
+
+
+
 import SwiftUI
 
 typealias UIImage = NSImage
